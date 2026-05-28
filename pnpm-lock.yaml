@@ -41,8 +41,8 @@ importers:
         specifier: ^6.0.3
         version: 6.0.3
       viteplus-preset-bjmhe:
-        specifier: ^0.0.3
-        version: 0.0.3(@arethetypeswrong/core@0.18.2)(publint@0.3.21)(tsdown@0.22.0(@arethetypeswrong/core@0.18.2)(@typescript/native-preview@7.0.0-dev.20260509.2)(publint@0.3.21)(typescript@6.0.3))(tsnapi@0.3.3)(vite-plus@0.1.22(@arethetypeswrong/core@0.18.2)(@types/node@25.9.1)(jiti@2.7.0)(publint@0.3.21)(typescript@6.0.3)(vite@8.0.14(@types/node@25.9.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0))
+        specifier: ^0.0.4
+        version: 0.0.4(@arethetypeswrong/core@0.18.2)(publint@0.3.21)(tsdown@0.22.0(@arethetypeswrong/core@0.18.2)(@typescript/native-preview@7.0.0-dev.20260509.2)(publint@0.3.21)(typescript@6.0.3))(tsnapi@0.3.3)(vite-plus@0.1.22(@arethetypeswrong/core@0.18.2)(@types/node@25.9.1)(jiti@2.7.0)(publint@0.3.21)(typescript@6.0.3)(vite@8.0.14(@types/node@25.9.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0))
 
 packages:
 
@@ -1303,8 +1303,8 @@ packages:
       yaml:
         optional: true
 
-  viteplus-preset-bjmhe@0.0.3:
-    resolution: {integrity: sha512-sGV7aVBKJ/Jkkv+R0SwjKtuf2FJEOjV92PIjcigcYB5AgZhJOKFmfIg9t2XHt8vwNTglYrCalaVD6KxlKmkWTQ==}
+  viteplus-preset-bjmhe@0.0.4:
+    resolution: {integrity: sha512-JxeCdshyqNiMTmN0Y5EGmAnQbolgGSgIB7qE8csY3oqUnXhwhaP8Tee5ieateUTcm+P5Weqs+/X3hL96zsCb/Q==}
     peerDependencies:
       '@arethetypeswrong/core': ^0.18.2
       publint: ^0.3.21
@@ -2256,7 +2256,7 @@ snapshots:
       jiti: 2.7.0
       yaml: 2.9.0
 
-  viteplus-preset-bjmhe@0.0.3(@arethetypeswrong/core@0.18.2)(publint@0.3.21)(tsdown@0.22.0(@arethetypeswrong/core@0.18.2)(@typescript/native-preview@7.0.0-dev.20260509.2)(publint@0.3.21)(typescript@6.0.3))(tsnapi@0.3.3)(vite-plus@0.1.22(@arethetypeswrong/core@0.18.2)(@types/node@25.9.1)(jiti@2.7.0)(publint@0.3.21)(typescript@6.0.3)(vite@8.0.14(@types/node@25.9.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)):
+  viteplus-preset-bjmhe@0.0.4(@arethetypeswrong/core@0.18.2)(publint@0.3.21)(tsdown@0.22.0(@arethetypeswrong/core@0.18.2)(@typescript/native-preview@7.0.0-dev.20260509.2)(publint@0.3.21)(typescript@6.0.3))(tsnapi@0.3.3)(vite-plus@0.1.22(@arethetypeswrong/core@0.18.2)(@types/node@25.9.1)(jiti@2.7.0)(publint@0.3.21)(typescript@6.0.3)(vite@8.0.14(@types/node@25.9.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)):
     dependencies:
       '@arethetypeswrong/core': 0.18.2
       publint: 0.3.21
