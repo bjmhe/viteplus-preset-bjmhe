@@ -3,6 +3,8 @@
 [![Open on npmx][npmx-version-src]][npmx-href]
 [![npm downloads][npmx-downloads-src]][npmx-href]
 
+> inspired by `tsdown-preset-sxzz`
+
 A Vite Plus preset for creating a TypeScript package.
 
 ## Install

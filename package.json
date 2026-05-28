@@ -2,6 +2,13 @@
   "name": "@bjmhe/viteplus-preset",
   "version": "1.0.0",
   "description": "A Vite Plus preset for creating a TypeScript package.",
+  "keywords": [
+    "package",
+    "preset",
+    "typescript",
+    "vite",
+    "vite-plus"
+  ],
   "homepage": "https://github.com/bjmhe/viteplus-preset#readme",
   "bugs": {
     "url": "https://github.com/bjmhe/viteplus-preset/issues"
