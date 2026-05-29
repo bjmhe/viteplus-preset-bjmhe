@@ -10,11 +10,14 @@ jobs:
   automd:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
 
     steps:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          ref: ${{ github.head_ref || github.ref }}
+          persist-credentials: true
 
       - name: Setup Vite Plus
         uses: sxzz/workflows/setup-vp@main
