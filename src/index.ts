@@ -45,7 +45,7 @@ export function lib(
         platform: "neutral",
         plugins: [ApiSnapshot()],
         publint: {
-          enabled: 'ci-only',
+          enabled: "ci-only",
           module: [publint, publintUtils],
         },
         shims: true,
