@@ -1,4 +1,4 @@
-name: Release Vite Plus
+name: Release
 
 on:
   workflow_dispatch:

@@ -1,4 +1,4 @@
-name: Automd Vite Plus
+name: Automd
 
 on:
   workflow_dispatch:
