@@ -45,7 +45,7 @@ export default defineConfig({
     unused: true,
   },
   lint: {
-    ignorePatterns: ["__snapshots__/**/*", "dist/**/*"],
+    ignorePatterns: ["__snapshots__/**/*", "dist/**/*", "coverage/**/*"],
     options: {
       typeAware: true,
       typeCheck: true,
@@ -53,7 +53,7 @@ export default defineConfig({
   },
   fmt: {
     bracketSameLine: true,
-    ignorePatterns: ["__snapshots__/**/*", "dist/**/*"],
+    ignorePatterns: ["__snapshots__/**/*", "dist/**/*", "coverage/**/*"],
     jsdoc: true,
     sortImports: true,
     sortTailwindcss: true,
