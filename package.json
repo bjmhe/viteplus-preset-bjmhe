@@ -1,6 +1,6 @@
 {
   "name": "@bjmhe/viteplus-preset",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A Vite Plus preset for creating a TypeScript package.",
   "keywords": [
     "package",
