@@ -4,6 +4,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@bjmhe/viteplus-preset)](https://npmjs.com/package/@bjmhe/viteplus-preset)
 [![npm downloads](https://img.shields.io/npm/dm/@bjmhe/viteplus-preset)](https://npm.chart.dev/@bjmhe/viteplus-preset)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/@bjmhe/viteplus-preset)](https://bundlephobia.com/package/@bjmhe/viteplus-preset)
 [![codecov](https://img.shields.io/codecov/c/gh/bjmhe/viteplus-preset)](https://codecov.io/gh/bjmhe/viteplus-preset)
 [![license](https://img.shields.io/github/license/bjmhe/viteplus-preset)](https://github.com/bjmhe/viteplus-preset/blob/main/LICENSE)
 
