@@ -1,9 +1,8 @@
 import { fmtPreset } from "@bjmhe/viteplus-preset-fmt";
 import { lintPreset } from "@bjmhe/viteplus-preset-lint";
+import { packPreset } from "@bjmhe/viteplus-preset-pack";
 import type { TsdownInputOption } from "tsdown";
 import { mergeConfig, type UserConfig } from "vite-plus";
-
-import { getPackConfig } from "./pack";
 
 export interface LibOptions {
   /** Entry preset or custom tsdown input. */
@@ -19,7 +18,7 @@ export function lib(
 ): UserConfig {
   return mergeConfig(
     {
-      pack: getPackConfig({ entry, inlineDeps }),
+      pack: packPreset({ entry, inlineDeps }),
       lint: lintPreset(),
       fmt: fmtPreset(),
     },
